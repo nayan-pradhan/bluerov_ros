@@ -36,4 +36,7 @@
   <node pkg="bluerov_ros_playground" type="user_mav" name="user_node" output="$(arg log_output)">
     <param name="video_udp_port" value="$(arg video_udp_port)"/>
   </node>
+
+  <node pkg="bluerov_ros_playground" type="bluerov_node.py" name="bluerov_node" output="screen"/>
+
 </launch>
